@@ -1,4 +1,3 @@
-
 import profilePic from "../assets/rotimi.png"
 import { HERO_CONTENT } from "../constants"
 import { motion } from "framer-motion"
@@ -31,8 +30,8 @@ const Hero = () => {
             src={profilePic} 
             alt="Ravi Kumar" 
             className="border border-stone-900 rounded-3xl" 
-            width={350}
-            height={350}
+            width={300}
+            height={300}
             initial={{x: 100, opacity:0 }}
             animate={{x: 0, opacity: 1}}
             transition={{duration: 1, delay: 1.5 }} />
@@ -46,7 +45,7 @@ const Hero = () => {
             className="flex flex-col items-center lg:items-start mt-10">
                <motion.h2 
                variants={childVariants}
-               className="pb-2 text-4xl tracking-tighter lg:text-8xl">James Rotimi Obabiyi-Nicol</motion.h2>
+               className="pb-2 text-3xl tracking-tighter lg:text-8xl">James Rotimi Obabiyi-Nicol</motion.h2>
                <motion.span 
                variants={childVariants}
                className="bg-gradient-to-r from-stone-300 to-stone-600 bg-clip-text text-3xl tracking-tight text-transparent">Software Developer</motion.span>
